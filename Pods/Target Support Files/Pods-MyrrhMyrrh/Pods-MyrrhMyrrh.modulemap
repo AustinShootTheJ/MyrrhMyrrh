@@ -1,0 +1,6 @@
+framework module Pods_MyrrhMyrrh {
+  umbrella header "Pods-MyrrhMyrrh-umbrella.h"
+
+  export *
+  module * { export * }
+}
