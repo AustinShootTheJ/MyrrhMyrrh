@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D655FFFA07DD56160513C7E /* Pods_MyrrhMyrrhTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE0F8F3ECA72DFB95880E29 /* Pods_MyrrhMyrrhTests.framework */; };
+		5584C00E21265BBA00358D00 /* PrayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5584C00D21265BBA00358D00 /* PrayersTableViewController.swift */; };
+		5584C01021265C9500358D00 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5584C00F21265C9500358D00 /* User.swift */; };
+		5584C01221265EC000358D00 /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5584C01121265EC000358D00 /* Prayer.swift */; };
+		55CAC5FF212917F70047D6D5 /* PrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CAC5FE212917F70047D6D5 /* PrayerViewController.swift */; };
 		55D62FDE212643BE007B710F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62FDD212643BE007B710F /* AppDelegate.swift */; };
-		55D62FE0212643BE007B710F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62FDF212643BE007B710F /* ViewController.swift */; };
 		55D62FE3212643BE007B710F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D62FE1212643BE007B710F /* Main.storyboard */; };
 		55D62FE5212643C0007B710F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D62FE4212643C0007B710F /* Assets.xcassets */; };
 		55D62FE8212643C0007B710F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D62FE6212643C0007B710F /* LaunchScreen.storyboard */; };
 		55D62FF3212643C0007B710F /* MyrrhMyrrhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62FF2212643C0007B710F /* MyrrhMyrrhTests.swift */; };
 		55D62FFE212643C0007B710F /* MyrrhMyrrhUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62FFD212643C0007B710F /* MyrrhMyrrhUITests.swift */; };
+		55D6300C21264575007B710F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55D6300B21264575007B710F /* GoogleService-Info.plist */; };
+		BA77A84D867ADFAE0AB774BC /* Pods_MyrrhMyrrh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56247850920969EA9C884BC1 /* Pods_MyrrhMyrrh.framework */; };
+		F65F9ABA78CA03806074F7A6 /* Pods_MyrrhMyrrhUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E706347C5F52C40EA8475E46 /* Pods_MyrrhMyrrhUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BE0F8F3ECA72DFB95880E29 /* Pods_MyrrhMyrrhTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyrrhMyrrhTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F74473AA628B8158BDA9E7F /* Pods-MyrrhMyrrh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyrrhMyrrh.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyrrhMyrrh/Pods-MyrrhMyrrh.release.xcconfig"; sourceTree = "<group>"; };
+		44385C5C7DCD8583CB53D0EA /* Pods-MyrrhMyrrh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyrrhMyrrh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyrrhMyrrh/Pods-MyrrhMyrrh.debug.xcconfig"; sourceTree = "<group>"; };
+		5584C00D21265BBA00358D00 /* PrayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayersTableViewController.swift; sourceTree = "<group>"; };
+		5584C00F21265C9500358D00 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5584C01121265EC000358D00 /* Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
+		55CAC5FE212917F70047D6D5 /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
 		55D62FDA212643BE007B710F /* MyrrhMyrrh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyrrhMyrrh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D62FDD212643BE007B710F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55D62FDF212643BE007B710F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55D62FE2212643BE007B710F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55D62FE4212643C0007B710F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55D62FE7212643C0007B710F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,13 @@
 		55D62FF9212643C0007B710F /* MyrrhMyrrhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyrrhMyrrhUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D62FFD212643C0007B710F /* MyrrhMyrrhUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyrrhMyrrhUITests.swift; sourceTree = "<group>"; };
 		55D62FFF212643C0007B710F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D6300B21264575007B710F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		56247850920969EA9C884BC1 /* Pods_MyrrhMyrrh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyrrhMyrrh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCCD56E05E93FA61F3E649A /* Pods-MyrrhMyrrhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyrrhMyrrhUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyrrhMyrrhUITests/Pods-MyrrhMyrrhUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70885F99CA89B58FDE07A19D /* Pods-MyrrhMyrrhUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyrrhMyrrhUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyrrhMyrrhUITests/Pods-MyrrhMyrrhUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DACA6CEF7B91795C039DDA36 /* Pods-MyrrhMyrrhTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyrrhMyrrhTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyrrhMyrrhTests/Pods-MyrrhMyrrhTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E706347C5F52C40EA8475E46 /* Pods_MyrrhMyrrhUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyrrhMyrrhUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84B605A2C84A2821D9A99A2 /* Pods-MyrrhMyrrhTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyrrhMyrrhTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyrrhMyrrhTests/Pods-MyrrhMyrrhTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA77A84D867ADFAE0AB774BC /* Pods_MyrrhMyrrh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D655FFFA07DD56160513C7E /* Pods_MyrrhMyrrhTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F65F9ABA78CA03806074F7A6 /* Pods_MyrrhMyrrhUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472FACFE1FDB62AC3F967163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56247850920969EA9C884BC1 /* Pods_MyrrhMyrrh.framework */,
+				1BE0F8F3ECA72DFB95880E29 /* Pods_MyrrhMyrrhTests.framework */,
+				E706347C5F52C40EA8475E46 /* Pods_MyrrhMyrrhUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5584C0132126685400358D00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5584C01121265EC000358D00 /* Prayer.swift */,
+				5584C00F21265C9500358D00 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		55D62FD1212643BE007B710F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,9 @@
 				55D62FF1212643C0007B710F /* MyrrhMyrrhTests */,
 				55D62FFC212643C0007B710F /* MyrrhMyrrhUITests */,
 				55D62FDB212643BE007B710F /* Products */,
+				55D6300B21264575007B710F /* GoogleService-Info.plist */,
+				7B32F25FDBD5BDBBB9345006 /* Pods */,
+				472FACFE1FDB62AC3F967163 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +142,10 @@
 		55D62FDC212643BE007B710F /* MyrrhMyrrh */ = {
 			isa = PBXGroup;
 			children = (
+				5584C0132126685400358D00 /* Model */,
 				55D62FDD212643BE007B710F /* AppDelegate.swift */,
-				55D62FDF212643BE007B710F /* ViewController.swift */,
+				5584C00D21265BBA00358D00 /* PrayersTableViewController.swift */,
+				55CAC5FE212917F70047D6D5 /* PrayerViewController.swift */,
 				55D62FE1212643BE007B710F /* Main.storyboard */,
 				55D62FE4212643C0007B710F /* Assets.xcassets */,
 				55D62FE6212643C0007B710F /* LaunchScreen.storyboard */,
@@ -125,6 +172,19 @@
 			path = MyrrhMyrrhUITests;
 			sourceTree = "<group>";
 		};
+		7B32F25FDBD5BDBBB9345006 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44385C5C7DCD8583CB53D0EA /* Pods-MyrrhMyrrh.debug.xcconfig */,
+				3F74473AA628B8158BDA9E7F /* Pods-MyrrhMyrrh.release.xcconfig */,
+				DACA6CEF7B91795C039DDA36 /* Pods-MyrrhMyrrhTests.debug.xcconfig */,
+				F84B605A2C84A2821D9A99A2 /* Pods-MyrrhMyrrhTests.release.xcconfig */,
+				5BCCD56E05E93FA61F3E649A /* Pods-MyrrhMyrrhUITests.debug.xcconfig */,
+				70885F99CA89B58FDE07A19D /* Pods-MyrrhMyrrhUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55D63002212643C0007B710F /* Build configuration list for PBXNativeTarget "MyrrhMyrrh" */;
 			buildPhases = (
+				49A2778E7160A8F5AB6E5582 /* [CP] Check Pods Manifest.lock */,
 				55D62FD6212643BE007B710F /* Sources */,
 				55D62FD7212643BE007B710F /* Frameworks */,
 				55D62FD8212643BE007B710F /* Resources */,
+				4FEBEDDE988261016935CECB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55D63005212643C0007B710F /* Build configuration list for PBXNativeTarget "MyrrhMyrrhTests" */;
 			buildPhases = (
+				F1C30F9EB54D8199BD9FDBEA /* [CP] Check Pods Manifest.lock */,
 				55D62FEA212643C0007B710F /* Sources */,
 				55D62FEB212643C0007B710F /* Frameworks */,
 				55D62FEC212643C0007B710F /* Resources */,
@@ -167,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55D63008212643C0007B710F /* Build configuration list for PBXNativeTarget "MyrrhMyrrhUITests" */;
 			buildPhases = (
+				7C609DEEE4A14EE692CB6148 /* [CP] Check Pods Manifest.lock */,
 				55D62FF5212643C0007B710F /* Sources */,
 				55D62FF6212643C0007B710F /* Frameworks */,
 				55D62FF7212643C0007B710F /* Resources */,
@@ -230,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D62FE8212643C0007B710F /* LaunchScreen.storyboard in Resources */,
+				55D6300C21264575007B710F /* GoogleService-Info.plist in Resources */,
 				55D62FE5212643C0007B710F /* Assets.xcassets in Resources */,
 				55D62FE3212643BE007B710F /* Main.storyboard in Resources */,
 			);
@@ -251,13 +316,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49A2778E7160A8F5AB6E5582 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyrrhMyrrh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FEBEDDE988261016935CECB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyrrhMyrrh/Pods-MyrrhMyrrh-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyrrhMyrrh/Pods-MyrrhMyrrh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C609DEEE4A14EE692CB6148 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyrrhMyrrhUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C30F9EB54D8199BD9FDBEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyrrhMyrrhTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55D62FD6212643BE007B710F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D62FE0212643BE007B710F /* ViewController.swift in Sources */,
+				5584C00E21265BBA00358D00 /* PrayersTableViewController.swift in Sources */,
+				55CAC5FF212917F70047D6D5 /* PrayerViewController.swift in Sources */,
 				55D62FDE212643BE007B710F /* AppDelegate.swift in Sources */,
+				5584C01221265EC000358D00 /* Prayer.swift in Sources */,
+				5584C01021265C9500358D00 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +577,11 @@
 		};
 		55D63003212643C0007B710F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44385C5C7DCD8583CB53D0EA /* Pods-MyrrhMyrrh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USFFQ55GSY;
 				INFOPLIST_FILE = MyrrhMyrrh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +596,11 @@
 		};
 		55D63004212643C0007B710F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F74473AA628B8158BDA9E7F /* Pods-MyrrhMyrrh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USFFQ55GSY;
 				INFOPLIST_FILE = MyrrhMyrrh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +615,7 @@
 		};
 		55D63006212643C0007B710F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACA6CEF7B91795C039DDA36 /* Pods-MyrrhMyrrhTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +636,7 @@
 		};
 		55D63007212643C0007B710F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84B605A2C84A2821D9A99A2 /* Pods-MyrrhMyrrhTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +657,7 @@
 		};
 		55D63009212643C0007B710F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCCD56E05E93FA61F3E649A /* Pods-MyrrhMyrrhUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +677,7 @@
 		};
 		55D6300A212643C0007B710F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70885F99CA89B58FDE07A19D /* Pods-MyrrhMyrrhUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
